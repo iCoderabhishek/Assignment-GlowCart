@@ -1,0 +1,267 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#FFEDE8',
+  },
+  scrollContainer: {
+    flex: 1,
+  },
+  productImageSection: {
+    paddingHorizontal: 24,
+    marginBottom: 24,
+    marginTop: 16,
+  },
+  productImageContainer: {
+    height: 427,
+    backgroundColor: '#FFFFFF',
+    borderRadius: 24,
+    overflow: 'hidden',
+    position: 'relative',
+  },
+  productImage: {
+    width: '100%',
+    height: '100%',
+  },
+  headerIcons: {
+    position: 'absolute',
+    top: 16,
+    left: 16,
+    right: 16,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  iconButton: {
+    width: 40,
+    height: 40,
+    backgroundColor: '#FFEDE8',
+    borderRadius: 12,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  cartIcon: {
+    width: 24,
+    height: 28,
+  },
+  viewSimilarSection: {
+    paddingHorizontal: 24,
+    marginBottom: 24,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  viewSimilarButton: {
+    alignSelf: 'flex-start',
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    borderRadius: 20,
+    borderWidth: 1,
+    borderColor: '#B84953',
+  },
+  viewSimilarText: {
+    color: '#B84953',
+    fontSize: 14,
+    fontFamily: 'Inter',
+  },
+  shareIcon: {
+    width: 32,
+    height: 32,
+  },
+  productInfoSection: {
+    paddingHorizontal: 24,
+    marginBottom: 24,
+  },
+  productTitle: {
+    fontFamily: 'Inter',
+    fontWeight: '700',
+    fontSize: 20,
+    lineHeight: 21,
+    letterSpacing: 0.4,
+    color: '#070707',
+    marginBottom: 8,
+  },
+  productDescription: {
+    fontFamily: 'Inter',
+    fontSize: 14,
+    fontWeight: '400',
+    lineHeight: 20,
+    color: '#666',
+    marginBottom: 12,
+  },
+  ratingContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 16,
+  },
+  starsContainer: {
+    flexDirection: 'row',
+    marginRight: 8,
+  },
+  ratingText: {
+    fontSize: 14,
+    color: '#666',
+    fontFamily: 'Inter',
+  },
+  divider: {
+    height: 1,
+    backgroundColor: '#333333c4',
+    marginVertical: 8,
+  },
+  soldByText: {
+    fontSize: 16,
+    color: '#666',
+    fontFamily: 'Inter',
+    marginBottom: 16,
+    fontWeight: '400',
+  },
+  brandText: {
+    fontWeight: '500',
+    color: '#000',
+    lineHeight: 21,
+  },
+  priceSection: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginBottom: 32,
+  },
+  priceContainer: {
+    flex: 1,
+  },
+  price: {
+    fontFamily: 'Inter',
+    fontWeight: '700',
+    fontSize: 32,
+    color: '#000',
+  },
+  discountPrice: {
+    fontFamily: 'Inter',
+    fontSize: 24,
+    color: '#999',
+    textDecorationLine: 'line-through',
+  },
+  addToBagButton: {
+    backgroundColor: '#B84953',
+    borderRadius: 16,
+    paddingHorizontal: 64,
+    paddingVertical: 16,
+    minHeight: 56,
+    minWidth: 238,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  addToBagText: {
+    fontFamily: 'Inter',
+    fontWeight: '500',
+    fontSize: 24,
+    letterSpacing: -0.32,
+    color: '#FFFFFF',
+  },
+  highlightsSection: {
+    marginBottom: 32,
+  },
+  highlightsTitle: {
+    fontFamily: 'Inter',
+    fontWeight: '700',
+    fontSize: 20,
+    color: '#070707',
+    marginBottom: 16,
+  },
+  highlightsContent: {
+    padding: 8,
+    flexDirection: 'row',
+  },
+  highlightsColumn: {
+    flex: 1,
+  },
+  highlightItem: {
+    marginBottom: 16,
+  },
+  highlightLabel: {
+    fontSize: 16,
+    color: '#333333',
+    fontFamily: 'Inter',
+  },
+  highlightValue: {
+    fontSize: 16,
+    color: '#000',
+    fontFamily: 'Inter',
+    fontWeight: '500',
+  },
+  highlightsDivider: {
+    width: 1,
+    backgroundColor: '#333333',
+    marginHorizontal: 24,
+  },
+  reviewsSection: {
+    marginBottom: 32,
+  },
+  reviewsTitle: {
+    fontFamily: 'Inter',
+    fontWeight: '600',
+    fontSize: 18,
+    color: '#000',
+    marginBottom: 16,
+  },
+  reviewItem: {
+    borderRadius: 16,
+    padding: 20,
+    marginBottom: 16,
+    backgroundColor: '#FFFFFF',
+    borderWidth: 1,
+    borderColor: '#989696',
+  },
+  reviewHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 8,
+  },
+  reviewerAvatar: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    marginRight: 12,
+    backgroundColor: '#FFEDE8',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  reviewerInitial: {
+    fontFamily: 'Inter',
+    fontWeight: '600',
+    fontSize: 14,
+  },
+  reviewerInfo: {
+    flex: 1,
+  },
+  reviewerName: {
+    fontFamily: 'Inter',
+    fontWeight: '600',
+    fontSize: 14,
+    color: '#333333',
+    lineHeight: 21,
+  },
+  reviewerEmail: {
+    fontFamily: 'Inter',
+    fontSize: 10,
+    fontWeight: '400',
+    color: '#333333',
+  },
+  reviewStars: {
+    flexDirection: 'row',
+  },
+  reviewComment: {
+    fontFamily: 'Inter',
+    fontSize: 16,
+    color: '#333333',
+    marginLeft: 0,
+  },
+  starContainer: {
+    position: 'relative',
+  },
+  halfStarContainer: {
+    position: 'absolute',
+    left: 0,
+    top: 0,
+    overflow: 'hidden',
+  },
+});

@@ -1,0 +1,163 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#FFEDE8',
+  },
+  mainContainer: {
+    flex: 1,
+  },
+  topBackgroundContainer: {
+    position: 'relative',
+    height: 256,
+  },
+  topBackgroundImage: {
+    width: '100%',
+    height: '100%',
+  },
+  headerTextContainer: {
+    position: 'absolute',
+    bottom: 32,
+    left: 0,
+    right: 0,
+    paddingHorizontal: 24,
+  },
+  welcomeTitle: {
+    fontFamily: 'Playfair Display',
+    fontWeight: '800',
+    fontSize: 34,
+    lineHeight: 34,
+    letterSpacing: 0.68,
+    color: '#B84953',
+    textAlign: 'center',
+    marginBottom: 16,
+  },
+  welcomeSubtitle: {
+    fontFamily: 'Inter',
+    fontWeight: '500',
+    fontSize: 26,
+    lineHeight: 32,
+    letterSpacing: 0.52,
+    color: '#AC7373',
+    textAlign: 'center',
+  },
+  formContainer: {
+    flex: 1,
+    paddingHorizontal: 24,
+    paddingTop: 56,
+  },
+  inputContainer: {
+    position: 'relative',
+    marginBottom: 24,
+  },
+  passwordInputContainer: {
+    position: 'relative',
+    marginBottom: 16,
+  },
+  textInput: {
+    fontFamily: 'Inter',
+    height: 68,
+    backgroundColor: '#FFFFFF',
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: '#D1D5DB',
+    paddingLeft: 32,
+    paddingRight: 48,
+    paddingVertical: 20,
+    fontSize: 16,
+  },
+  inputIcon: {
+    position: 'absolute',
+    right: 24,
+    top: 24,
+  },
+  forgotPasswordContainer: {
+    marginBottom: 32,
+  },
+  forgotPasswordText: {
+    fontFamily: 'Inter',
+    fontSize: 16,
+    color: '#CC3D3D',
+    textAlign: 'right',
+    textDecorationLine: 'underline',
+  },
+  loginButton: {
+    backgroundColor: '#B84953',
+    height: 61,
+    borderRadius: 16,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 32,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 4,
+    elevation: 8,
+  },
+  loginButtonText: {
+    fontFamily: 'Inter',
+    fontWeight: '500',
+    fontSize: 24,
+    letterSpacing: -0.32,
+    color: '#FFFFFF',
+    textAlign: 'center',
+  },
+  dividerContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 32,
+  },
+  dividerLine: {
+    flex: 1,
+    height: 1,
+    backgroundColor: '#D1D5DB',
+  },
+  dividerText: {
+    fontFamily: 'Inter',
+    fontSize: 16,
+    color: '#6C6C6C',
+    marginHorizontal: 16,
+  },
+  socialButtonsContainer: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    gap: 32,
+    marginBottom: 32,
+  },
+  socialButton: {
+    width: 48,
+    height: 48,
+    backgroundColor: '#FFFFFF',
+    borderRadius: 16,
+    alignItems: 'center',
+    justifyContent: 'center',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 2,
+    elevation: 2,
+  },
+  socialIcon: {
+    width: '50%',
+    height: '50%',
+  },
+  registerContainer: {
+    alignItems: 'center',
+  },
+  registerText: {
+    fontFamily: 'Inter',
+    fontSize: 16,
+    color: '#6C6C6C',
+  },
+  registerLink: {
+    fontWeight: '600',
+    color: '#CC3D3D',
+  },
+});
