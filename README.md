@@ -1,97 +1,89 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# GlowCart - Cosmetic E-commerce App (ASSIGNMENT)
 
-# Getting Started
+A minimal cosmetic e-commerce mobile application built with React Native, featuring a clean UI and smooth user experience.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## Features
 
-## Step 1: Start Metro
+- **Product Browsing**: Browse cosmetic products with smooth scrolling
+- **User Profile**: Manage user account and preferences
+- **Wishlist**: Save favorite products for later
+- **Offers**: View available deals and promotions
+- **Authentication**: User login and registration
+- **Responsive Design**: Optimized for various screen sizes
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+## Tech Stack
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+- **React Native** (Vanilla)
+- **TypeScript** for type safety
+- **React Navigation** for screen transitions
+- **Lucide React Native** for icons
+- **StyleSheet API** for styling
+- **Context API** for state management
+- **FlatList** for optimized product rendering
 
-```sh
-# Using npm
-npm start
+## 📱 Screens (as mentioned in the design)
 
-# OR using Yarn
-yarn start
-```
+- **Profile**: User account management with settings menu
+- **Login/Register**: User authentication flow
+-  **Home + Product Info**: The products and the infos
+- **Wishlist**: Saved products collection (just screen)
+- **Offers**: Promotional deals and discounts (just screen)
 
-## Step 2: Build and run your app
+## Design System
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+- **Primary Color**: `#B84953` (Rose)
+- **Background**: `#FFEDE8` (Light Peach)
+- **Typography**: Inter font family
+- **Components**: Reusable Button, consistent styling patterns
 
-### Android
+##  Getting Started (follow package.json for better guidance)
 
-```sh
-# Using npm
-npm run android
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd glowcart
+   ```
 
-# OR using Yarn
-yarn android
-```
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-### iOS
+3. **Start the development server**
+   ```bash
+   npm run start
+   ```
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+4. **Open the app**
+   - Web: Opens automatically in browser
+   - Mobile: Scan QR code with Expo Go app
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+##  Key Components
 
-```sh
-bundle install
-```
+### Button Component
+Reusable button with multiple variants:
+- Primary, Secondary, Outline styles
+- Small, Medium, Large sizes
+- Loading and disabled states
 
-Then, and every time you update your native dependencies, run:
+### Screen Components
+- **Profile**: User info with settings menu
+- **Authentication**: Login/register forms
+- **Empty States**: Wishlist and offers placeholder screens
 
-```sh
-bundle exec pod install
-```
+## Development Approach
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+- **Component-based Architecture**: Modular, reusable components( used screen folder)
+- **TypeScript Integration**: Type safety throughout the app (all code in TS)
+- **Consistent Styling**: Dedicated style files for each component (in the styles folder)
+- **Responsive Design**: Optimized for mobile-first experience
+- **Clean Code**: Organized file structure and naming conventions
+NOTE: The assets used in the project are present in the src/assets folder.
 
-```sh
-# Using npm
-npm run ios
 
-# OR using Yarn
-yarn ios
-```
+Design Resource- 
+https://www.figma.com/design/OzCBzK2Zzwge78NjQn8iNc/Untitled?node-id=1-442&t=jHy09jPX4xL5BHfW-0
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+ Thanks for giving me the opportunity to work on this assignment.
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
 
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
