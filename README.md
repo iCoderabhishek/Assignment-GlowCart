@@ -4,7 +4,7 @@ A minimal cosmetic e-commerce mobile application built with React Native, featur
 
 ## Demo
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/r5yImVCM1cs?si=MdaQwe54x3-fbuss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/r5yImVCM1cs/0.jpg)](https://www.youtube.com/watch?v=r5yImVCM1cs)
 
 
 ## Features
